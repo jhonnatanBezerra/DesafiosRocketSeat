@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Sidebar</title>
+</head>
+<body>
+
+ <nav class="sidebar">
+  
+  <div class="sideHeader">
+    <img src="./assets/images/logo.svg" alt="logo">
+    <img src="./assets/images/menu.svg" alt="menu-button">
+  </div>
+
+  <div class="sideLinks">
+
+    <div class="link active" onclick="print(e)">
+      <img src="./assets/images/search.svg" alt="icon-search">
+      <a href="#">Buscar</a>
+    </div>
+
+    <div class="link">
+      <img src="./assets/images/grid.svg" alt="icon-dash">
+      <a href="#">Dashboard</a>
+    </div>
+
+    <div class="link">
+      <img src="./assets/images/pet.svg" alt="icon-pet">
+      <a href="#">Pets</a>
+    </div>
+
+    <div class="link">
+      <img src="./assets/images/user.svg" alt="icon-user">
+      <a href="#">Clientes</a>
+    </div>
+
+    <div class="link">
+      <img src="./assets/images/vet.svg" alt="icon-vet">
+      <a href="#">Vets</a>
+    </div>
+
+    <div class="link">
+      <img src="./assets/images/settings.svg" alt="icon-config">
+      <a href="#">Ajustes</a>
+    </div>
+
+  </div>
+
+  <div class="sideFooter">
+
+    <div class="imgProfile">
+      <img src="./assets/images/photo.jpg" alt="photo-profile">
+    </div>
+
+    <div class="profileInfos">
+      <p>Eleanor Pena</p>
+      <span>Veterinária</span>
+    </div>
+
+    <img src="./assets/images/log-out.svg" alt="logout">
+
+  </div>
+
+ </nav>
+
+<main class="main">
+  <h1>Dashboard</h1>
+</main>
+
+  
+</body>
+<script src="./index.js"></script>
+</html>
